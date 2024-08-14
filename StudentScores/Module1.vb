@@ -3,8 +3,11 @@
 Module Module1
 
     Sub Main()
-        ' Declare an array to store 100 grades
-        Dim grades(99) As Integer
+        Dim numberStudents As Integer = 10
+        System.Console.Write("Enter Number Of Students : ")
+        numberStudents = System.Convert.ToInt32(System.Console.ReadLine())
+        ' Declare an array to store (numberStudents) grades
+        Dim grades(numberStudents - 1) As Integer
         ' Declare variables for sum of grades, highest grade, lowest grade, and count of grades below 12
         Dim sumOfGrades As Integer
         Dim highestGrade As Integer = Integer.MinValue
@@ -12,7 +15,7 @@ Module Module1
         Dim countBelow12 As Integer
 
         ' Get grades from the user
-        For i As Integer = 0 To 99
+        For i As Integer = 0 To numberStudents - 1
             System.Console.Write("Enter the grade for student {0}: ", i + 1)
             grades(i) = System.Convert.ToInt32(System.Console.ReadLine())
         Next
