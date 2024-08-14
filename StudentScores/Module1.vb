@@ -3,9 +3,14 @@
 Module Module1
 
     Sub Main()
+
+        ' Definition of the number of students variable
         Dim numberStudents As Integer = 10
+
+        ' Get the number of students and store it in number Students
         System.Console.Write("Enter Number Of Students : ")
         numberStudents = System.Convert.ToInt32(System.Console.ReadLine())
+
         ' Declare an array to store (numberStudents) grades
         Dim grades(numberStudents - 1) As Integer
         ' Declare variables for sum of grades, highest grade, lowest grade, and count of grades below 12
