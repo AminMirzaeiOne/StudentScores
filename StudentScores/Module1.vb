@@ -7,10 +7,12 @@ Module Module1
         ' Definition of the number of students variable
         Dim numberStudents As Integer = 10
 
+        System.Console.ForegroundColor = ConsoleColor.Cyan
         ' Get the number of students and store it in number Students
         System.Console.Write("Enter Number Of Students : ")
+        System.Console.ForegroundColor = ConsoleColor.Yellow
         numberStudents = System.Convert.ToInt32(System.Console.ReadLine())
-
+        System.Console.ResetColor()
         ' Declare an array to store (numberStudents) grades
         Dim grades(numberStudents - 1) As Integer
         ' Declare variables for sum of grades, highest grade, lowest grade, and count of grades below 12
@@ -21,10 +23,12 @@ Module Module1
 
         ' Get grades from the user
         For i As Integer = 0 To numberStudents - 1
+            System.Console.ForegroundColor = ConsoleColor.Green
             System.Console.Write("Enter the grade for student {0}: ", i + 1)
+            System.Console.ForegroundColor = ConsoleColor.DarkMagenta
             grades(i) = System.Convert.ToInt32(System.Console.ReadLine())
         Next
-
+        System.Console.ResetColor()
         ' Calculate the sum of grades
         For Each grade As Integer In grades
             sumOfGrades += grade
