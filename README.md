@@ -19,3 +19,7 @@ Determines whether the entered integer is positive or negative, then displays it
 2 - Then enter the correct number<br />
 3 - Press the Enter button<br />
 4 - View the result
+
+<h2>📷 Screenshots</h2>
+<img width="674" alt="Capture16" src="https://github.com/user-attachments/assets/60d526fb-2d8b-4a82-862c-b84dee0882f5">
+<img width="676" alt="Capture17" src="https://github.com/user-attachments/assets/e6797840-bd73-4fb2-949c-ad16a434b76e">
