@@ -27,7 +27,7 @@ Module Module1
         For i As Integer = 0 To numberStudents - 1
             System.Console.ForegroundColor = ConsoleColor.DarkGreen
             System.Console.Write("Enter the grade for student {0}: ", i + 1)
-            System.Console.ForegroundColor = ConsoleColor.DarkMagenta
+            System.Console.ForegroundColor = ConsoleColor.Yellow
             grades(i) = System.Convert.ToInt32(System.Console.ReadLine())
         Next
         System.Console.ResetColor()
