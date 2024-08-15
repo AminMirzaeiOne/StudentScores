@@ -2,7 +2,7 @@
 
 <h2> 👨‍💻 About Project</h2>
 Among the first projects of Amin Mirzaei after learning the basic concepts of Visual Basic <br />
-Determines whether the entered integer is positive or negative, then displays it on the console screen <br />
+This program first receives the number of students and then displays the lowest and highest and average scores and the number of failed students on the console screen based on the entered grades. <br />
 
 <h2> 🏗 Build Information</h2>
 - Made in year = January 2016 <br />
@@ -13,6 +13,8 @@ Determines whether the entered integer is positive or negative, then displays it
 
 <h2> 📜 Program Rules</h2>
 1 - The numbers must be correct<br />
+2 - The number of students is reasonable and positive <br />
+3 - The score must be a number between 0 and 20 <br />
 
 <h2> 💡 Program Help</h2>
 1 - Run the program first<br />
