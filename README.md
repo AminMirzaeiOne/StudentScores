@@ -5,6 +5,10 @@ Among the first projects of Amin Mirzaei after learning the basic concepts of Vi
 ----------------------------------------------- <br />
 This program first receives the number of students and then displays the lowest and highest and average scores and the number of failed students on the console screen based on the entered grades. <br />
 
+<h2> ⭐ Features</h2>
+- Light Mode and Dark Mode<br />
+- Custom number of students <br />
+
 <h2> 🏗 Build Information</h2>
 - Made in year = January 2016 <br />
 ----------------------------------------------- <br />
