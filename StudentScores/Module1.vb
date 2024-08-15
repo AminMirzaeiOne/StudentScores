@@ -2,13 +2,13 @@
 
 Module Module1
 
-    Private themeColor As ConsoleColor = ConsoleColor.Black
 
     Sub Main()
 
 
         System.Console.Write("Light Or Dark Mode (Light : l - Dark : d) : ")
         Dim theme As Char = System.Console.ReadLine()
+        Dim themeColor As ConsoleColor = ConsoleColor.Black
         Dim foregroundTheme As ConsoleColor = ConsoleColor.Yellow
         If theme = "l" Then
             System.Console.BackgroundColor = ConsoleColor.White
