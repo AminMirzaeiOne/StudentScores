@@ -4,6 +4,16 @@ Module Module1
 
     Sub Main()
 
+        System.Console.Write("Light Or Dark Mode (Light : l - Dark : d) : ")
+        Dim theme As Char = System.Console.ReadLine()
+        If theme = "l" Then
+            System.Console.BackgroundColor = ConsoleColor.White
+            System.Console.Clear()
+        ElseIf theme = "d" Then
+            System.Console.Clear()
+            System.Console.BackgroundColor = ConsoleColor.Black
+        End If
+
         ' Definition of the number of students variable
         Dim numberStudents As Integer = 10
 
