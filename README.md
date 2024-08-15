@@ -31,5 +31,5 @@ This program first receives the number of students and then displays the lowest 
 7 - View the result
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture16" src="https://github.com/user-attachments/assets/60d526fb-2d8b-4a82-862c-b84dee0882f5">
+<img width="674" alt="Capture18" src="https://github.com/user-attachments/assets/3cb1d1b6-ab02-4c5a-a79c-4de9ab9c60a2">
 <img width="676" alt="Capture17" src="https://github.com/user-attachments/assets/e6797840-bd73-4fb2-949c-ad16a434b76e">
