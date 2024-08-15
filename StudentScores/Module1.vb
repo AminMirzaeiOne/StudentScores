@@ -56,11 +56,27 @@ Module Module1
         System.Console.WriteLine("-----------------------")
         System.Console.ResetColor()
 
+        System.Console.ForegroundColor = ConsoleColor.DarkYellow
         ' Print the results
-        System.Console.WriteLine("Average grade: " & average)
-        System.Console.WriteLine("Highest grade: " & highestGrade)
-        System.Console.WriteLine("Lowest grade: " & lowestGrade)
-        System.Console.WriteLine("Number of students with grades below 12: " & countBelow12)
+        System.Console.Write("Average grade : ")
+        System.Console.ForegroundColor = ConsoleColor.White
+        System.Console.BackgroundColor = ConsoleColor.DarkYellow
+        System.Console.WriteLine(average.ToString())
+        System.Console.ForegroundColor = ConsoleColor.DarkCyan
+        System.Console.Write("Highest grade : " & highestGrade)
+        System.Console.ForegroundColor = ConsoleColor.White
+        System.Console.BackgroundColor = ConsoleColor.DarkCyan
+        System.Console.WriteLine(highestGrade.ToString())
+        System.Console.ForegroundColor = ConsoleColor.Blue
+        System.Console.Write("Lowest grade : ")
+        System.Console.ForegroundColor = ConsoleColor.White
+        System.Console.BackgroundColor = ConsoleColor.Blue
+        System.Console.WriteLine(lowestGrade.ToString())
+        System.Console.ForegroundColor = ConsoleColor.Red
+        System.Console.Write("Number of students with grades below 12 : ")
+        System.Console.ForegroundColor = ConsoleColor.White
+        System.Console.BackgroundColor = ConsoleColor.Red
+        System.Console.WriteLine(countBelow12.ToString())
 
         System.Console.ReadLine() ' Pause the console
     End Sub
