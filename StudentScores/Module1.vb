@@ -10,22 +10,25 @@ Module Module1
         Dim theme As Char = System.Console.ReadLine()
         Dim themeColor As ConsoleColor = ConsoleColor.Black
         Dim foregroundTheme As ConsoleColor = ConsoleColor.Yellow
+        Dim QuestionTheme As ConsoleColor = ConsoleColor.Cyan
         If theme = "l" Then
             System.Console.BackgroundColor = ConsoleColor.White
             System.Console.Clear()
             foregroundTheme = ConsoleColor.Black
             themeColor = ConsoleColor.White
+            QuestionTheme = ConsoleColor.Blue
         ElseIf theme = "d" Then
             System.Console.BackgroundColor = ConsoleColor.Black
             System.Console.Clear()
             foregroundTheme = ConsoleColor.Yellow
             themeColor = ConsoleColor.Black
+            QuestionTheme = ConsoleColor.Cyan
         End If
 
         ' Definition of the number of students variable
         Dim numberStudents As Integer = 10
 
-        System.Console.ForegroundColor = ConsoleColor.Cyan
+        System.Console.ForegroundColor = QuestionTheme
         ' Get the number of students and store it in number Students
         System.Console.Write("Enter Number Of Students : ")
         System.Console.ForegroundColor = foregroundTheme
