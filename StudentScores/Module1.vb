@@ -82,6 +82,7 @@ Module Module1
         System.Console.WriteLine(countBelow12.ToString())
         System.Console.ResetColor()
 
+        ' Programmer Information and GitHub ID
         System.Console.ForegroundColor = ConsoleColor.Gray
         System.Console.WriteLine("-----------------------")
         System.Console.ForegroundColor = ConsoleColor.Red
