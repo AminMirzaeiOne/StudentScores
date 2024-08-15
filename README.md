@@ -2,6 +2,7 @@
 
 <h2> 👨‍💻 About Project</h2>
 Among the first projects of Amin Mirzaei after learning the basic concepts of Visual Basic <br />
+----------------------------------------------- <br />
 This program first receives the number of students and then displays the lowest and highest and average scores and the number of failed students on the console screen based on the entered grades. <br />
 
 <h2> 🏗 Build Information</h2>
