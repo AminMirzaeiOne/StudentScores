@@ -23,9 +23,12 @@ This program first receives the number of students and then displays the lowest 
 
 <h2> 💡 Program Help</h2>
 1 - Run the program first<br />
-2 - Then enter the correct number<br />
+2 - Specify the program theme (Light or Dark) <br />
 3 - Press the Enter button<br />
-4 - View the result
+4 - Specify the number of students, for example (20)<br />
+5 - Press the Enter button<br />
+6 - Enter the scores <br />
+7 - View the result
 
 <h2>📷 Screenshots</h2>
 <img width="674" alt="Capture16" src="https://github.com/user-attachments/assets/60d526fb-2d8b-4a82-862c-b84dee0882f5">
