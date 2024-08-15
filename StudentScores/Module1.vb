@@ -4,14 +4,18 @@ Module Module1
 
     Sub Main()
 
+
         System.Console.Write("Light Or Dark Mode (Light : l - Dark : d) : ")
         Dim theme As Char = System.Console.ReadLine()
+        Dim foregroundTheme As ConsoleColor = ConsoleColor.Yellow
         If theme = "l" Then
             System.Console.BackgroundColor = ConsoleColor.White
             System.Console.Clear()
+            foregroundTheme = ConsoleColor.Black
         ElseIf theme = "d" Then
-            System.Console.Clear()
             System.Console.BackgroundColor = ConsoleColor.Black
+            System.Console.Clear()
+            foregroundTheme = ConsoleColor.Yellow
         End If
 
         ' Definition of the number of students variable
@@ -20,7 +24,7 @@ Module Module1
         System.Console.ForegroundColor = ConsoleColor.Cyan
         ' Get the number of students and store it in number Students
         System.Console.Write("Enter Number Of Students : ")
-        System.Console.ForegroundColor = ConsoleColor.Yellow
+        System.Console.ForegroundColor = foregroundTheme
         numberStudents = System.Convert.ToInt32(System.Console.ReadLine())
         System.Console.ResetColor()
         ' Declare an array to store (numberStudents) grades
@@ -37,7 +41,7 @@ Module Module1
         For i As Integer = 0 To numberStudents - 1
             System.Console.ForegroundColor = ConsoleColor.DarkGreen
             System.Console.Write("Enter the grade for student {0}: ", i + 1)
-            System.Console.ForegroundColor = ConsoleColor.Yellow
+            System.Console.ForegroundColor = foregroundTheme
             grades(i) = System.Convert.ToInt32(System.Console.ReadLine())
         Next
         System.Console.ResetColor()
