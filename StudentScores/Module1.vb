@@ -20,6 +20,8 @@ Module Module1
         Dim highestGrade As Integer = Integer.MinValue
         Dim lowestGrade As Integer = Integer.MaxValue
         Dim countBelow12 As Integer
+        System.Console.ForegroundColor = ConsoleColor.Gray
+        System.Console.WriteLine("-----------------------")
 
         ' Get grades from the user
         For i As Integer = 0 To numberStudents - 1
