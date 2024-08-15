@@ -70,8 +70,8 @@ Module Module1
         Next
 
         System.Console.ForegroundColor = ConsoleColor.Gray
+        System.Console.BackgroundColor = themeColor
         System.Console.WriteLine("-----------------------")
-        System.Console.ResetColor()
 
         System.Console.ForegroundColor = ConsoleColor.DarkYellow
         ' Print the results
@@ -79,25 +79,25 @@ Module Module1
         System.Console.ForegroundColor = ConsoleColor.White
         System.Console.BackgroundColor = ConsoleColor.DarkYellow
         System.Console.WriteLine(average.ToString())
-        System.Console.ResetColor()
+        System.Console.BackgroundColor = themeColor
         System.Console.ForegroundColor = ConsoleColor.DarkCyan
         System.Console.Write("Highest grade : ")
         System.Console.ForegroundColor = ConsoleColor.White
         System.Console.BackgroundColor = ConsoleColor.DarkCyan
         System.Console.WriteLine(highestGrade.ToString())
-        System.Console.ResetColor()
+        System.Console.BackgroundColor = themeColor
         System.Console.ForegroundColor = ConsoleColor.Blue
         System.Console.Write("Lowest grade : ")
         System.Console.ForegroundColor = ConsoleColor.White
         System.Console.BackgroundColor = ConsoleColor.Blue
         System.Console.WriteLine(lowestGrade.ToString())
-        System.Console.ResetColor()
+        System.Console.BackgroundColor = themeColor
         System.Console.ForegroundColor = ConsoleColor.Magenta
         System.Console.Write("Number of students with grades below 12 : ")
         System.Console.ForegroundColor = ConsoleColor.White
         System.Console.BackgroundColor = ConsoleColor.Magenta
         System.Console.WriteLine(countBelow12.ToString())
-        System.Console.ResetColor()
+        System.Console.BackgroundColor = themeColor
 
         ' Programmer Information and GitHub ID
         System.Console.ForegroundColor = ConsoleColor.Gray
