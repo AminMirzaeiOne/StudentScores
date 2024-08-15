@@ -52,6 +52,10 @@ Module Module1
             End If
         Next
 
+        System.Console.ForegroundColor = ConsoleColor.Gray
+        System.Console.WriteLine("-----------------------")
+        System.Console.ResetColor()
+
         ' Print the results
         System.Console.WriteLine("Average grade: " & average)
         System.Console.WriteLine("Highest grade: " & highestGrade)
