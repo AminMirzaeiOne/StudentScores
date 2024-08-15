@@ -108,9 +108,6 @@ Module Module1
         System.Console.ReadLine() ' Pause the console
     End Sub
 
-    Sub ResetTheme()
-        System.Console.BackgroundColor = themeColor
-        System.Console.Clear()
-    End Sub
+
 
 End Module
