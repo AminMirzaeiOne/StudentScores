@@ -2,6 +2,8 @@
 
 Module Module1
 
+    Private themeColor As ConsoleColor = ConsoleColor.Black
+
     Sub Main()
 
 
@@ -12,10 +14,12 @@ Module Module1
             System.Console.BackgroundColor = ConsoleColor.White
             System.Console.Clear()
             foregroundTheme = ConsoleColor.Black
+            themeColor = ConsoleColor.White
         ElseIf theme = "d" Then
             System.Console.BackgroundColor = ConsoleColor.Black
             System.Console.Clear()
             foregroundTheme = ConsoleColor.Yellow
+            themeColor = ConsoleColor.Black
         End If
 
         ' Definition of the number of students variable
@@ -104,4 +108,10 @@ Module Module1
 
         System.Console.ReadLine() ' Pause the console
     End Sub
+
+    Sub ResetTheme()
+        System.Console.BackgroundColor = themeColor
+        System.Console.Clear()
+    End Sub
+
 End Module
