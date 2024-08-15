@@ -30,7 +30,6 @@ Module Module1
         System.Console.Write("Enter Number Of Students : ")
         System.Console.ForegroundColor = foregroundTheme
         numberStudents = System.Convert.ToInt32(System.Console.ReadLine())
-        System.Console.ResetColor()
         ' Declare an array to store (numberStudents) grades
         Dim grades(numberStudents - 1) As Integer
         ' Declare variables for sum of grades, highest grade, lowest grade, and count of grades below 12
