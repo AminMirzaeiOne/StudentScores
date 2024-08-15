@@ -25,7 +25,7 @@ Module Module1
 
         ' Get grades from the user
         For i As Integer = 0 To numberStudents - 1
-            System.Console.ForegroundColor = ConsoleColor.Green
+            System.Console.ForegroundColor = ConsoleColor.DarkGreen
             System.Console.Write("Enter the grade for student {0}: ", i + 1)
             System.Console.ForegroundColor = ConsoleColor.DarkMagenta
             grades(i) = System.Convert.ToInt32(System.Console.ReadLine())
@@ -75,12 +75,17 @@ Module Module1
         System.Console.BackgroundColor = ConsoleColor.Blue
         System.Console.WriteLine(lowestGrade.ToString())
         System.Console.ResetColor()
-        System.Console.ForegroundColor = ConsoleColor.Red
+        System.Console.ForegroundColor = ConsoleColor.Magenta
         System.Console.Write("Number of students with grades below 12 : ")
         System.Console.ForegroundColor = ConsoleColor.White
-        System.Console.BackgroundColor = ConsoleColor.Red
+        System.Console.BackgroundColor = ConsoleColor.Magenta
         System.Console.WriteLine(countBelow12.ToString())
         System.Console.ResetColor()
+
+        System.Console.ForegroundColor = ConsoleColor.Gray
+        System.Console.WriteLine("-----------------------")
+        System.Console.ForegroundColor = ConsoleColor.Red
+        System.Console.WriteLine("Programmer : Amin Mirzaei - Github(UserName) : AminMirzaeiOne")
 
         System.Console.ReadLine() ' Pause the console
     End Sub
